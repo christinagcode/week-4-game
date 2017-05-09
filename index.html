@@ -1,62 +1,37 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="en">
 <head>
-
 	<meta charset="UTF-8">
-	<link rel="stylesheet" >
+	<title>Steven Universe Training</title>
 
- 	<meta name="viewport" content="width=device-width, initial-
-
-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Baloo" 
-
-rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/style.css">
-
-
-
-	<title>Steven Universe Training RPG</title>
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 <body>
-	
-	<div id="backgroundimage">
-		<img src="assets/images/su_background.png">
+<div class="container">
+
+	<div class="row">
+		<h2 id="action" class="text-center"></h2>
+		<div id="pick" class="text-center"></div>
 	</div>
-	<div id="sulogo">
-		<img src="assets/images/su_logo.png">
+	<div class="row theCenter text-center">
+		<div id="initialChar" class="col-md-4"></div>
+		<div class="col-md-4">
+			<div id="activity"></div><br>
+				<button id="attack" type="button" class="btn btn-danger" value=attack>Attack</button><br><br>
+			<button id="restart" type="button" class="btn btn-info" value=restart>Restart</button><br><br>
+		</div>
+
+		<div id="trainers" class="col-md-4"></div>
 	</div>
-
-<!-- Battle Area -->
-	<div id="charcontainer">
-				
-				<div id="steven">
-                	<img src="assets/images/steven.jpg">
-				</div>
-
-                <div id="pearl">
-                	<img src="assets/images/pearl.jpg">
-				</div>
-
-                <div id="amethyst">
-                	<img src="assets/images/amethyst.jpg">
-				</div>
-
-				<div id="garnet">
-				<img src="assets/images/garnet.jpg">				
-				</div>
-
-			</div>
-		</div>	
-	</div>
-
-<div id="introp">
-	Pick a Character and Fight!
 </div>
 
-
-
+<script src="assets/javascript/game.js" type="text/javascript">
+</script>
 
 </body>
 </html>

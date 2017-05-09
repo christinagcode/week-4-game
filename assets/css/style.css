@@ -1,54 +1,28 @@
+
 body {
-    background-color: #2d2635;
-    margin: 0px;
-}
-
-#backgroundimage {
-	position: absolute;
-    z-index: -1;
-    margin-top: -20px;
-}
-
-#sulogo {
-	float: left;
-	margin-top: 105px;
-	margin-left: 900px;
-}
-
-#charcontainer {
-	float: left;
-	margin-top: 25px;
-	margin-left: 20px;
-}
-#steven {
-	float: left;
-	margin-top: -130px;
-	margin-left: 10px;
-}
-
-#pearl {
-	float: left;
-	margin-top: -130px;
-	margin-left: 10px;
-}
-
-#amethyst {
-	float: left;
-	margin-top: 80px;
-	margin-left: -410px;
-}
-
-#garnet {
-	float: left;
-	margin-top: 80px;
-	margin-left: -200px;
-}
-
-#introp {
-	float: left;
+	background-image: url(../images/su_background.png);
+	background-color: #2d2635 !important;
 	font-family: baloo;
-	font-size: 40px;
-	color: #ffdd4f;
-	margin-left: 10px;
-	margin-top: -210px;
 }
+
+#container {
+	margin-top: 400px;
+}
+
+.theCenter {
+	margin: 0 auto;
+	padding: 30px;
+}
+
+#attack {
+	font-size: 24px;
+}
+
+#restart {
+	font-size: 22px;
+}
+
+#whathappens {
+	background-color: #99b4c7;
+}
+
